@@ -10,7 +10,7 @@
 
 @using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl })) {
     @Html.AntiForgeryToken()
-    @Html.ValidationSummary(true)
+    @*@Html.ValidationSummary(true)
 
     <fieldset>
         <legend>Association Form</legend>
@@ -33,4 +33,4 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
-}
+}*@
